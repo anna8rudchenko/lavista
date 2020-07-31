@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main -->
+    <style name="theme_dark">
+        <item name="android:background">#212026</item>
+    </style>
+    <style name="theme_light">
+        <item name="android:background">#EFEEEE</item>
+    </style>
+    <!-- start screen -->
+    <style name="start_main">
+        <item name="android:textSize">68sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <!-- start_txt -->
+    <style name="start_txt_1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="start_txt_2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#D7D7D7</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="start_txt_3">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#EBEBEB</item>
+    </style>
+    <style name="start_txt_4">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#D5D5D5</item>
+    </style>
+    <style name="start_txt_5">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#CACACA</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="start_txt_6">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#CACACA</item>
+    </style>
+    <!-- setting -->
+    <!-- main -->
+    <style name="settings_lavista">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">#6776FF</item>
+    </style>
+    <style name="settings_lavista_ver">
+        <item name="android:textSize">8sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#9CAAC0</item>
+    </style>
+    <style name="settings_main_big">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">#F8F7FC</item>
+    </style>
+    <style name="settings_main_general">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#F8F7FC</item>
+    </style>
+    <style name="settings_main_sub">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#9CAAC0</item>
+    </style>
+    <style name="settings_main_exit">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#FF1A1A</item>
+    </style>
+    <!-- notifications and sound -->
+    <style name="settings_in_not">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">#EFEEEE</item>
+    </style>
+    <!-- language & style -->
+    <style name="settings_in_chos_active">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#F8F7FC</item>
+    </style>
+    <style name="settings_in_chos_inactive">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#9CAAC0</item>
+    </style>
+    <!-- about -->
+    <style name="settings_in_about">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- deleting -->
+    <style name="settings_in_del_sub">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">#C1C4DC</item>
+    </style>
+    <style name="settings_in_del_res">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">#EFEEEE</item>
+    </style>
+    <!-- registration -->
+    <style name="registration_header_steps">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #808EA4
+        </item>
+
+    </style>
+    <style name="registration_header_main">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="registration_header_sub">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #C1C4DC
+        </item>
+
+    </style>
+    <!-- registration -->
+
+    <style name="reg_steps">
+
+    <item name="android:textSize">12sp</item>
+
+    <item name="android:letterSpacing">0.01</item>
+
+    <item name="android:textColor">#808EA4</item>
+
+</style>
+    <style name="reg_steps_big">
+
+    <item name="android:textSize">20sp</item>
+
+    <item name="android:letterSpacing">0</item>
+
+    <item name="android:textColor">#F8F7FC</item>
+
+</style>
+    <style name="reg_steps_sub_top">
+
+    <item name="android:textSize">15sp</item>
+
+    <item name="android:letterSpacing">0</item>
+
+    <item name="android:textColor">#C1C4DC</item>
+
+</style>
+    <style name="reg_steps_sub_bot">
+
+    <item name="android:textSize">13sp</item>
+
+    <item name="android:letterSpacing">0</item>
+
+    <item name="android:textColor">#C1C4DC</item>
+
+</style>
+    <!-- steps -->
+    <!-- step 1 -->
+    <style name="reg_step_1_phone_start">
+
+    <item name="android:textSize">20sp</item>
+
+    <item name="android:letterSpacing">0.1</item>
+
+    <item name="android:textColor">#EFEEEE</item>
+
+</style>
+    <style name="reg_step_1_phone_end">
+
+    <item name="android:textSize">20sp</item>
+
+    <item name="android:letterSpacing">0.1</item>
+
+    <item name="android:textColor">#EFEEEE</item>
+
+</style>
+    <!-- step 2 -->
+    <style name="reg_step_2_code">
+
+    <item name="android:textSize">34sp</item>
+
+    <item name="android:letterSpacing">0.1</item>
+
+    <item name="android:textColor">#F8F7FC</item>
+
+</style>
+    <style name="reg_step_2_button">
+
+    <item name="android:textSize">14sp</item>
+
+    <item name="android:letterSpacing">0.01</item>
+
+    <item name="android:textColor">#5282FF</item>
+
+</style>
+    <!-- step 3 -->
+    <style name="reg_step_3_name">
+
+    <item name="android:textSize">17sp</item>
+
+    <item name="android:letterSpacing">0.01</item>
+
+    <item name="android:textColor">#EFEEEE</item>
+
+</style>
+    <!-- step 4 -->
+    <style name="registration_steps_4_inactive">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #51515A
+        </item>
+
+    </style>
+    <style name="registration_steps_4_active">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <!-- step 5 -->
+    <style name="reg_step_5_city">
+
+        <item name="android:textSize">16sp</item>
+
+        <item name="android:letterSpacing">0.01</item>
+
+        <item name="android:textColor">#EFEEEE</item>
+
+    </style>
+    <!-- step 6 -->
+    <style name="registration_steps_6">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+
+    </style>
+    <!-- main -->
+    <!-- lost like -->
+    <style name="main_lost_like_lavista">
+        <item name="android:textSize">
+            24sp
+        </item>
+        <item name="android:letterSpacing">
+            0.1
+        </item>
+        <item name="android:textColor">
+            #6776FF
+        </item>
+    </style>
+    <!-- text style -->
+    <style name="main_lost_like_big">
+
+        <item name="android:textSize">
+            32sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="main_lost_like_small">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="main_lost_like_gen">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+
+    </style>
+    <!-- meets -->
+
+    <style name="meets_header_lavista">
+
+        <item name="android:textSize">24sp</item>
+
+        <item name="android:letterSpacing">0.1</item>
+
+        <item name="android:textColor">#6776FF</item>
+
+    </style>
+    <style name="meets_header_notification">
+        <item name="android:textSize">
+            13sp
+        </item>
+        <item name="android:letterSpacing">
+            0
+        </item>
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+    </style>
+    <style name="meets_photo_sub">
+
+        <item name="android:textSize">20sp</item>
+
+        <item name="android:letterSpacing">0.02</item>
+
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+    <style name="meets_profile_main">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#0D0C14</item>
+    </style>
+    <style name="meets_profile_sub">
+
+        <item name="android:textSize">14sp</item>
+
+        <item name="android:letterSpacing">0.01</item>
+
+        <item name="android:textColor">#67768E</item>
+
+    </style>
+    <!-- meet -->
+    <style name="meet_center_sub">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+
+    </style>
+    <style name="meet_center_gen">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+    </style>
+
+    <!-- chats_screen -->
+    <style name="chats_headers">
+        <item name="android:textSize">
+            15sp
+        </item>
+        <item name="android:letterSpacing">
+            0
+        </item>
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+    </style>
+    <style name="chats_names">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="chats_last_message">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #C1C4DC
+        </item>
+
+    </style>
+    <style name="chats_messages_counts">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="chats_date">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #9CAAC0
+        </item>
+
+    </style>
+
+    <!-- chat -->
+    <style name="chat_name">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="chat_status">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #9CAAC0
+        </item>
+
+    </style>
+    <style name="chat_day">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #9CAAC0
+        </item>
+
+    </style>
+    <style name="chat_message">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="chat_new_message">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #9CAAC0
+        </item>
+
+    </style>
+
+    <!-- bank card -->
+    <style name="bank_card_name">
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.08
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="bank_card_num">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.05
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="bank_card_date">
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+    <style name="bank_card_but">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <!--VIP include -->
+    <style name="vip_include_head">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="vip_include_reason">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="vip_include_period">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+
+    <!-- buy arrows -->
+    <style name="buy_arrows_head">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="buy_arrows_head_sub">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #C1C4DC
+        </item>
+
+    </style>
+    <style name="buy_arrows_choose">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+
+    </style>
+    <style name="buy_arrows_count">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="buy_arrows_price">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+
+    </style>
+
+    <!-- profile -->
+    <style name="profile_head_main">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="profile_head_sub">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="profile_source">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #5282FF
+        </item>
+
+    </style>
+    <style name="profile_form_fill">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+
+    </style>
+    <style name="profile_fill_percent">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.02
+        </item>
+
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+
+    </style>
+    <style name="profile_center_sub">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #C1C4DC
+        </item>
+
+    </style>
+    <style name="profile_choice_main">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #F8F7FC
+        </item>
+
+    </style>
+    <style name="profile_choice_sub">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #EFEEEE
+        </item>
+
+    </style>
+    <style name="profile_seekbar">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #C1C4DC
+        </item>
+
+    </style>
+    <style name="profile_button">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+
+</resources>

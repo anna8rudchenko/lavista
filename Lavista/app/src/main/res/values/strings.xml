@@ -1,0 +1,437 @@
+<resources>
+    <string name="app_name">Lavista</string>
+    <string name="start_main">LAVISTA</string>
+
+    <string name="start_txt_1">Добро пожаловать в</string>
+
+    <string name="start_txt_2">Пройдите быструю регистрацию\nи знакомьтесь прямо сейчас</string>
+
+    <string name="start_txt_3">Войдите через соц.сети</string>
+
+    <string name="start_txt_4">Мы ничего не публикуем от вашего имени</string>
+
+    <string name="start_txt_5">Войти с помощью номера телефона</string>
+
+    <string name="start_txt_6">Политика конфиденциальности</string>
+
+    <!-- settings main -->
+
+
+    <string name="settings_main_lavista">Lavista</string>
+
+    <string name="settings_main_acc">Аккаунт</string>
+
+    <string name="settings_main_set">Настройки</string>
+
+    <string name="settings_main_help">Помощь</string>
+
+    <string name="settings_main_exit">Выйти</string>
+
+    <string name="settings_main_ver">Lavista, ver. 0.1. 2020</string>
+
+    <!-- settings main acc -->
+
+
+    <string name="settings_main_acc_phone">X XXX XXX XX XX</string>
+
+    <string name="settings_main_acc_name">Имя</string>
+
+    <string name="settings_main_acc_data">Изменить анкету</string>
+
+    <string name="settings_main_acc_inst">Привязать Instagram</string>
+
+    <!-- settings main sub acc -->
+
+
+    <string name="settings_main_sub_acc_phone">Нажмите, чтобы изменить номер телефона</string>
+
+    <string name="settings_main_sub_acc_name">Нажмите, чтобы изменить ваше имя</string>
+
+    <string name="settings_main_sub_acc_data">Нажмите, чтобы изменить ваши данные</string>
+
+    <string name="settings_main_sub_acc_inst">Нажмите, чтобы привязать ваш аккаунт instagram</string>
+
+    <!-- settings main set -->
+
+
+    <string name="settings_main_set_notify">Уведомления и звук</string>
+
+    <string name="settings_main_set_lang">Язык</string>
+
+    <string name="settings_main_set_style">Выбрать стиль приложения</string>
+
+    <!-- settings main help -->
+
+
+    <string name="settings_main_help_about">О приложении</string>
+
+    <string name="settings_main_help_delete">Удалить аккаунт</string>
+
+    <!-- notifications and sound -->
+
+
+    <string name="settings_in_not">Уведомления и звук</string>
+
+    <string name="settings_in_not_chat">Уведомления из чата</string>
+
+    <string name="settings_in_not_sound">Звук в приложении</string>
+
+    <!-- language -->
+
+
+    <string name="settings_in_lang">Язык</string>
+
+    <string name="settings_in_lang_ru">Русский</string>
+
+    <string name="settings_in_lang_en">English</string>
+
+    <!-- about -->
+
+
+    <string name="settings_in_about">О приложении</string>
+
+    <string name="settings_in_text">Текст о приложении</string>
+
+    <!-- deleting -->
+
+
+    <string name="settings_in_delete">Удаление аккаунта</string>
+
+    <string name="settings_in_delete_sub">Отметьте причину, по которой вы\nудаляете аккаунт</string>
+
+    <string name="settings_in_delete_res_dl">Не понравилось приложение</string>
+
+    <string name="settings_in_delete_res_oth">Другая причина</string>
+
+    <string name="settings_in_delete_but">Удалить</string>
+
+    <!-- style -->
+
+
+    <string name="settings_in_style">Cтиль приложения</string>
+
+    <string name="settings_in_style_light">Светлая тема</string>
+
+    <string name="settings_in_style_dark">Темная тема</string>
+
+    <!-- verification -->
+
+
+    <string name="settings_in_verification_sub">Сделайте фото в такой же позе,\nкак и человек на фото</string>
+
+    <string name="settings_in_verification_but">Верефицироваться</string>
+
+    <!--registration -->
+
+
+    <!-- steps -->
+
+
+    <string name="reg_steps_ru_1">Шаг 1/7</string>
+
+    <string name="reg_steps_ru_2">Шаг 2/7</string>
+
+    <string name="reg_steps_ru_3">Шаг 3/7</string>
+
+    <string name="reg_steps_ru_5">Шаг 5/7</string>
+
+    <!-- steps -->
+    <!-- step 1 -->
+    <string name="reg_steps_1_header">Введите номер</string>
+    <string name="reg_steps_1_header_sub">Мы отправим вам код подтверждения</string>
+    <string name="reg_steps_1_phone_start">+X</string>
+    <string name="reg_steps_1_phone_end">### ### ## ##</string>
+    <string name="reg_steps_1_but">Отправить</string>
+
+    <!-- step 2 -->
+    <string name="reg_steps_2_header">Подтверидите номер телефона</string>
+    <string name="reg_steps_2_header_sub">Если это не произошло автоматически,\n введите четырехзначный код, который мы\n вам отправили</string>
+    <string name="reg_steps_2_footer_sub">В течении 20с он придет на номер +X ### ### ## ##. \n Если код не приходит, нажмите на кнопку "отправить\n повторно, либо проверьте номер."</string>
+    <string name="reg_steps_2_but">Продолжить</string>
+    <!-- buttons -->
+    <string name="reg_steps_2_but_re">Отправить повторно</string>
+    <string name="reg_steps_2_but_change">Изменить номер</string>
+    <string name="reg_steps_2_but_let_1">0</string>
+    <string name="reg_steps_2_but_let_2">0</string>
+    <string name="reg_steps_2_but_let_3">0</string>
+    <string name="reg_steps_2_but_let_4">0</string>
+
+    <!-- step 3 -->
+    <string name="reg_steps_3_header">Введите Ваше имя</string>
+    <string name="reg_steps_3_name">Имя</string>
+    <string name="reg_steps_3_but">Верно</string>
+
+    <!-- step 4 -->
+    <string name="registration_steps_4">Шаг 4/7</string>
+    <string name="registration_steps_4_header_main">Укажите дату рождения</string>
+    <string name="registration_steps_4_header_sub">Нажмите на поле, чтобы указать дату</string>
+    <!-- days -->
+    <string name="registration_steps_4_day_1">21</string>
+    <string name="registration_steps_4_day_2">22</string>
+    <string name="registration_steps_4_day_3">23</string>
+    <!-- months -->
+    <string name="registration_steps_4_months_ru_1">июля</string>
+    <string name="registration_steps_4_months_ru_2">августа</string>
+    <string name="registration_steps_4_months_ru_3">сентября</string>
+    <!-- year -->
+    <string name="registration_steps_4_year_1">1998</string>
+    <string name="registration_steps_4_year_2">1999</string>
+    <string name="registration_steps_4_year_3">2000</string>
+    <!-- button -->
+    <string name="registration_steps_4_but">Верно</string>
+
+    <!-- step 5 -->
+    <string name="reg_steps_5_header">Выберите ваш город</string>
+    <string name="reg_steps_5_header_sub">Если ваш город определился неправильно,\nто укажите верный</string>
+    <string name="reg_steps_5_town">Санкт-Петербург</string>
+    <string name="reg_steps_5_but">Верно</string>
+
+    <!-- step 6 -->
+    <string name="registration_steps_6">Шаг 6/7</string>
+    <string name="registration_steps_6_header_main">Выберите цели знакомства</string>
+    <string name="registration_steps_6_header_sub">Вы сможете изменить цели позже,\n если передумаете</string>
+    <!-- reasons -->
+    <string name="registration_steps_6_res_1">Создать дружную семью</string>
+    <string name="registration_steps_6_res_2">Серьезные отношения</string>
+    <string name="registration_steps_6_res_3">Общение</string>
+    <string name="registration_steps_6_res_4">Пока не знаю</string>
+    <string name="registration_steps_6_res_5">Свободные отношения</string>
+    <!-- button-->
+    <string name="registration_steps_6_but">Верно</string>
+    <!-- step 7 -->
+    <string name="registration_steps_7">Шаг 7/7</string>
+    <string name="registration_steps_7_header_main">Остался последний шаг!</string>
+    <string name="registration_steps_7_header_sub">Загрузите вашу главную фотографию</string>
+    <!-- footer -->
+    <string name="registration_steps_7_footer_sub">Можете сразу добавить фотографии\n на свою страницу, либо сделать это потом</string>
+
+    <!-- main -->
+
+    <!-- meets -->
+    <!-- another user sub -->
+    <string name="meets_user_name">Дмитрий</string>
+    <string name="meets_user_age">17</string>
+    <!-- about me -->
+    <!-- main -->
+    <string name="meets_profile_main_about">Обо мне</string>
+    <string name="meets_profile_main_job">Место работы</string>
+    <string name="meets_profile_main_education">Образование</string>
+    <string name="meets_profile_main_purpose">Цель знакомства</string>
+    <string name="meets_profile_main_photos">фотографии из instagram</string>
+    <string name="meets_photos_count">22</string>
+
+    <!-- sub -->
+    <string name="meets_profile_sub_about">[ ]</string>
+    <string name="meets_profile_sub_job">Wind Studio</string>
+    <string name="meets_profile_sub_education">Среднее</string>
+    <string name="meets_profile_sub_purpose">[ ]</string>
+
+    <!-- notify -->
+    <string name="meets_notification">Вы упустили симпатию</string>
+    <!-- lost_like -->
+    <string name="main_lost_like_lavista">Lavista</string>
+    <string name="main_lost_like_sub">Вы упустили взаимный лайк!\n Подключите VIP аккаунт, чтобы\nбольше не пропусть, либо купите\n набор стрел</string>
+    <!-- vip -->
+    <string name="main_lost_like_vip">VIP</string>
+    <string name="main_lost_like_vip_dont">У вас не подключен</string>
+    <string name="main_lost_like_vip_include">Подключить</string>
+    <string name="main_lost_like_vip_total">Всего</string>
+    <string name="main_lost_like_vip_price">за 50р</string>
+    <string name="main_lost_like_vip_day">В день</string>
+    <!-- arrows -->
+    <string name="main_lost_like_arrows_dont">У вас нету стрел</string>
+    <string name="main_lost_like_arrows_buy">Купить ещё</string>
+    <string name="main_lost_like_arrows_total">Всего</string>
+    <string name="main_lost_like_arrows_price">20р</string>
+    <string name="main_lost_like_arrows_by">за 1 стрелу</string>
+
+    <!-- meet -->
+    <string name="meet_exit">X</string>
+    <string name="meet_like">Вы и Евгения понравились\nдруг другу!</string>
+    <string name="meet_profile">Профиль</string>
+    <string name="meet_chat">Написать</string>
+    
+    <!-- chats -->
+    <string name="chats_sympathy">Симпатии</string>
+    <string name="chats_messages">Сообщения</string>
+
+    <string name="chats_names_1">Евгения</string>
+    <string name="chats_names_2">Анастасия</string>
+
+    <string name="chats_messages_1">Привет.</string>
+    <string name="chats_messages_2">Давай познакомимся?)</string>
+
+    <string name="chats_dates_1">18/06/20</string>
+    <string name="chats_dates_2">17/06/20</string>
+
+
+    <!-- counts -->
+    <string name="chats_counts_sympathy">3</string>
+    <string name="chats_counts_messages">20</string>
+
+    <string name="chats_counts_messages_1">1</string>
+    <string name="chats_counts_messages_2">10</string>
+
+    <!-- chat -->
+    <string name="chat_name">Анастасия</string>
+    <string name="chat_status">online</string>
+
+    <!-- messages -->
+    <string name="chat_message_1">Привет) Меня зовут Анастасия.\nДавай знакомиться)</string>
+    <string name="chat_message_2">Привет) А меня -- Игорь. Давай))</string>
+    <string name="chat_message_3">Как у тебя дела?</string>
+
+    <!-- new message -->
+    <string name="chat_new_message">Ваше сообщение</string>
+
+    <!-- days -->
+    <string name="chat_day_1">Вчера</string>
+    <string name="chat_day_2">Сегодня</string>
+    
+    <!-- bank card -->
+    <string name="bank_card_name">BANK CARD</string>
+    <string name="bank_card_num">**** **** **** ****</string>
+    <string name="bank_card_date">_ _ /_ _ </string>
+
+    <!-- VIP include -->
+    <string name="vip_include_head">Подключение VIP аккаунта</string>
+
+    <!-- reasons -->
+
+    <string name="vip_include_reasons_1">Возможность посмотреть профиль\n человеку которому вы понравились</string>
+    <string name="vip_include_reasons_2">Откройте все фильтры и узнайте о\n человеке больше</string>
+    <string name="vip_include_reasons_3">Ставьте безграничное количество лайков</string>
+
+    <!-- period -->
+
+    <string name="vip_include_periods_1">День\n 50 руб.</string>
+    <string name="vip_include_periods_2">Неделя\n 249 руб.</string>
+    <string name="vip_include_periods_3">Месяц\n 699 руб.</string>
+
+    <!-- button -->
+
+    <string name="vip_include_but">Подключить VIP</string>
+
+    <!-- arrows buy -->
+
+    <string name="buy_arrows_head">Покупка набора стрел</string>
+    <string name="buy_arrows_head_sub">Лимит использования стрел -\n 10 штук</string>
+
+    <string name="buy_arrows_choose">Выберито количество стрел</string>
+
+    <!-- buttons -->
+    <string name="buy_arrows_count">50</string>
+    <string name="buy_arrows_price">523 руб.</string>
+    <string name="buy_arrows_but">Купить стрелы</string>
+
+    <!-- profile -->
+    <!-- header -->
+    <string name="profile_header">Привет, {Name}!</string>
+    <string name="profile_header_sub">Если вы хотите увеличить шансы на\n знакомство. Обязательно заполните анкету.</string>
+    <string name="profile_header_source">Просмотреть анкету</string>
+    <string name="profile_header_form_fill">Сейчас ваш\nкровень\nзаполнения\nанкеты</string>
+    <string name="profile_header_fill_percent">45%</string>
+
+    <!-- photos -->
+    <string name="profile_gallery">Добавьте больше своих фото или видео, чтобы\n вас смогли увидеть другие  пользователи</string>
+    <string name="profile_gallery_photos">Мои фотографии</string>
+    <string name="profile_gallery_videos">Мои видео</string>
+
+    <!-- vip -->
+    <string name="profile_vip_1">У вас не подключен</string>
+    <string name="profile_vip_2">VIP</string>
+    <string name="profile_vip_3">Подключить</string>
+    <string name="profile_vip_4">Всего</string>
+    <string name="profile_vip_5">за 50 руб.</string>
+    <string name="profile_vip_6">в день</string>
+
+    <!-- arrows -->
+    <string name="profile_arrows_1">Ваши стрелы</string>
+    <string name="profile_arrows_2">Купить еще</string>
+    <string name="profile_arrows_3">Осталось</string>
+    <string name="profile_arrows_4">X</string>
+    <string name="profile_arrows_5">стрел</string>
+
+    <!-- instagram -->
+    <string name="profile_inst">Приважите свой аккаунт instagram и ваши\nфотографии смогу появится в анкете</string>
+    <string name="profile_inst_but">Привязать instagram</string>
+
+    <!-- data -->
+    <string name="profile_"></string>
+    <string name="profile_data">Заполните все данные о себе</string>
+    <string name="profile_data_header_main_job">Место работы</string>
+    <string name="profile_data_header_main_education">Образование</string>
+    <string name="profile_data_header_sub_about">{Имя}, 20 лет. Люблю заниматься спортом, бегать, прыгать</string>
+    <string name="profile_data_header_sub_job">ОАО 'Завод'</string>
+    <string name="profile_data_header_sub_education">Высшее</string>
+    <string name="profile_data_header_sub_type">Серьезные отношения</string>
+
+    <!-- sub data -->
+    <string name="profile_data_sub_age">Возраст</string>
+    <string name="profile_data_sub_age_count">xx</string>
+    <string name="profile_data_sub_age_sub">лет</string>
+
+    <string name="profile_data_sub_height">Рост</string>
+    <string name="profile_data_sub_height_count">xxx</string>
+    <string name="profile_data_sub_height_sub">см</string>
+
+    <string name="profile_data_sub_weight">Вес</string>
+    <string name="profile_data_sub_weight_count">xx</string>
+    <string name="profile_data_sub_weight_sub">кг</string>
+
+    <string name="profile_data_sub_geo">Геолокация</string>
+    <string name="profile_data_sub_geo_count">xxx</string>
+    <string name="profile_data_sub_geo_sub">км</string>
+
+    <!-- zodiac signs -->
+    <string name="profile_data_zodiac">Знак зодика</string>
+    <string name="profile_data_zodiac_libra">Весы</string>
+    <string name="profile_data_zodiac_gemini">Близнецы</string>
+    <string name="profile_data_zodiac_scorpio">Скорпион</string>
+    <string name="profile_data_zodiac_taurus">Телец</string>
+    <string name="profile_data_zodiac_cancer">Рак</string>
+    <string name="profile_data_zodiac_leo">Лев</string>
+    <string name="profile_data_zodiac_aries">Овен</string>
+    <string name="profile_data_zodiac_capricorn">Козерог</string>
+    <string name="profile_data_zodiac_virgo">Дева</string>
+    <string name="profile_data_zodiac_sagittarius">Стрелец</string>
+    <string name="profile_data_zodiac_pisces">Рыбы</string>
+    <string name="profile_data_zodiac_aquarius">Водолей</string>
+
+    <string name="profile_data_body">Телосложение</string>
+    <string name="profile_data_body_1">Худощавый</string>
+    <string name="profile_data_body_2">Спортивное</string>
+    <string name="profile_data_body_3">Полное</string>
+    <string name="profile_data_body_4">Стройное</string>
+    <string name="profile_data_body_5">Атлетичное</string>
+    <string name="profile_data_body_6">Модельная\nвнешность</string>
+
+    <!-- end data -->
+    <string name="profile_end_data_main_child">Есть ли у вас дети?</string>
+    <string name="profile_end_data_main_tattoo">Татуировки</string>
+    <string name="profile_end_data_main_hair">Цвет волос</string>
+    <string name="profile_end_data_main_first_date">Первое свидание</string>
+    <string name="profile_end_data_main_religion">Религия</string>
+    <string name="profile_end_data_main_smoke">Курение</string>
+    <string name="profile_end_data_main_alcohol">Алкоголь</string>
+    <string name="profile_end_data_main_ready">Готовность к переезду</string>
+    <string name="profile_end_data_main_music">Какую музыку вы слушаете?</string>
+
+    <string name="profile_end_data_sub_child">Есть живут со мной</string>
+    <string name="profile_end_data_sub_tattoo">Много</string>
+    <string name="profile_end_data_sub_hair">Блондинка</string>
+    <string name="profile_end_data_sub_first_date">Прогуляться</string>
+    <string name="profile_end_data_sub_religion">Буддизм</string>
+    <string name="profile_end_data_sub_smoke">Иногда</string>
+    <string name="profile_end_data_sub_alcohol">Нейтрально</string>
+    <string name="profile_end_data_sub_ready">Готова</string>
+    <string name="profile_end_data_sub_music">Классическую</string>
+
+    <string name="end_data_income">Уровень дохода</string>
+    <string name="end_data_income_count">до 100000</string>
+    <string name="end_data_income_sub">руб</string>
+
+    <!-- save but -->
+    <string name="profile_save">Сохранить</string>
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    style="@style/theme_dark"
+    >
+
+    <!-- header -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                style="@style/reg_steps"
+                android:text="@string/reg_steps_ru_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                style="@style/reg_steps_big"
+                android:text="@string/reg_steps_5_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                style="@style/reg_steps_sub_top"
+                android:text="@string/reg_steps_5_header_sub"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- center -->
+    <RelativeLayout
+        android:id="@+id/center"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:background="@drawable/rectangles_registration_step_2"
+        >
+        <TextView
+            android:id="@+id/town"
+            android:paddingRight="20dp"
+            style="@style/reg_step_3_name"
+            android:text="@string/reg_steps_5_town"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RelativeLayout
+            android:layout_marginTop="1dp"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@id/town"
+            android:background="@drawable/rectangles_main_but"
+            android:layout_width="10dp"
+            android:layout_height="8dp" />
+    </RelativeLayout>
+    <!-- footer -->
+    <RelativeLayout
+        android:layout_below="@id/center"
+        android:layout_marginTop="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangles_main_but"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:layout_centerInParent="true"
+            style="@style/reg_steps_big"
+            android:text="@string/reg_steps_3_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>
